@@ -1,5 +1,5 @@
 ```
-$ ReleaseCliExplorer --help
+$ releasecliexplorer --help
 
 Приложение: ReleaseCliExplorer
  Консольный исследователь сайта releases.1c.ru
@@ -19,7 +19,7 @@ $ ReleaseCliExplorer --help
 ```
 ---
 ```
-$ ReleaseCliExplorer explore --help
+$ releasecliexplorer explore --help
 
 Команда: e, explore
  Обзор продуктов и скачивание
@@ -32,7 +32,7 @@ $ ReleaseCliExplorer explore --help
 ```
 ---
 ```
-$ ReleaseCliExplorer news --help
+$ releasecliexplorer news --help
 
 Команда: n, news, whatsnew
  Что нового (последние обновления, свежие резилы)
@@ -45,7 +45,7 @@ $ ReleaseCliExplorer news --help
 ```
 ---
 ```
-$ ReleaseCliExplorer report --help
+$ releasecliexplorer report --help
 
 Команда: r, report
  Сформировать отчет по проектам в формате Markdown
@@ -58,7 +58,7 @@ $ ReleaseCliExplorer report --help
 ```
 ---
 ```
-$ ReleaseCliExplorer download --help
+$ releasecliexplorer download --help
 
 Команда: d, download
  Скачать дистрибутив по ссылке
@@ -66,7 +66,9 @@ $ ReleaseCliExplorer download --help
 Строка запуска: ReleaseCliExplorer d [ОПЦИИ] PATH
 
 Аргументы:
-  PATH          путь к дистрибутиву или прямая ссылка на скачивание
+  PATH          путь к дистрибутиву или прямая ссылка на скачивание, где
+    * путь к дистрибутиву - ссылка URL типа https://releases.1c.ru/version_file?nick=
+    * прямая ссылка - ссылка URL типа https://dl0?.1c.ru/public/file/get/
 
 Опции:
   -o, --out     каталог сохранения скачиваемых файлов или имя файла (для опции force) (по умолчанию ./)
